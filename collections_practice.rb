@@ -30,7 +30,7 @@ end
 def merge_data(keys, data)
   keys.each do |hash|
     data.each do |second_hash|
-      hash.merge(second_hash[])
+      hash.merge(second_hash[hash[:]])
     end
   end
 end
