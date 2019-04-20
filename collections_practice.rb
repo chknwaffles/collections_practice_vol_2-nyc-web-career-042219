@@ -1,10 +1,7 @@
 # your code goes here
 def begins_with_r(arr)
-  arr.each do |e|
-    if !e.start_with?("r")
-      return false
-    end
-  end
+  arr.each {|e| return false if !e.start_with?("r") }
+  
   return true
 end
 
