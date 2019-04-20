@@ -24,6 +24,7 @@ end
 def remove_non_strings(arr)
   arr.map do |e|
     if e.class != String
-      e.delete
+      arr.delete(e)
     end
+  end
 end
