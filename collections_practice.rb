@@ -43,7 +43,9 @@ def organize_schools(schools)
   location = {}
   schools.each do |school, hash|
     hash.each do |k, v|
-      if location[k]
+      if location[k] == nil
+        
+      end
     end
   end
 end
