@@ -14,10 +14,8 @@ end
 
 def first_wa(arr)
   arr.each do |e|
-    if e.class == String
-      if e.start_with? "wa"
-        return e
-      end
+    if e.class == String && e.start_with? "wa"
+      return e
     end
   end
 end
@@ -30,8 +28,9 @@ def count_elements(arr)
   res = []
   count = 0
   arr.each do |hash|
-    hash.each do |k, v|
-      binding.pry
-    end
+    
+    #hash.each do |k, v|
+      #binding.pry
+    #end
   end
 end
