@@ -7,3 +7,7 @@ def begins_with_r(arr)
   end
   return true
 end
+
+def contain_a(arr)
+  
+end
