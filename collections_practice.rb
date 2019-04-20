@@ -29,7 +29,8 @@ end
 
 def merge_data(keys, data)
   keys.each do |hash|
-    data.each do |hash|
+    data.each do |second_hash|
       
+    end
   end
 end
