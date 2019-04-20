@@ -13,7 +13,7 @@ def contain_a(arr)
 end
 
 def first_wa(arr)
-  arr.find {|e| 
+  arr.find {|e| e.to_s.include? "wa"
 end
 
 def remove_non_strings(arr)
