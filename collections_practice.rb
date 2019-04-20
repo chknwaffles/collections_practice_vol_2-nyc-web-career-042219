@@ -22,7 +22,7 @@ def first_wa(arr)
 end
 
 def remove_non_strings(arr)
-  arr.map do |e|
+  arr.each do |e|
     if e.class != String
       arr.delete(e)
     end
