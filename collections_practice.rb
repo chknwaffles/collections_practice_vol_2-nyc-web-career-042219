@@ -21,7 +21,7 @@ def remove_non_strings(arr)
 end
 
 def count_elements(arr)
-  count = {}
+  count = Hash.new(0)
   arr.collect {|h| count[h] += 1}
   count.collect do |k, v|
     k[:count] = v
