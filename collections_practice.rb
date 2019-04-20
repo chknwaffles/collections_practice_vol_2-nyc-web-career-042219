@@ -1,4 +1,5 @@
 # your code goes here
+require 'pry'
 def begins_with_r(arr)
   arr.each {|e| return false if !e.start_with?("r") }
   
@@ -26,5 +27,11 @@ def remove_non_strings(arr)
 end
 
 def count_elements(arr)
-  
+  res = []
+  count = 0
+  arr.each do |hash|
+    hash.each do |k, v|
+      binding.pry
+    end
+  end
 end
