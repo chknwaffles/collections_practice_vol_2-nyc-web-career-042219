@@ -12,5 +12,7 @@ def contain_a(arr)
 end
 
 def first_wa(arr)
-  arr.each {|e| return e if e.start_with?("wa") }
+  arr.each do |e|
+    if e.is_s
+  end
 end
