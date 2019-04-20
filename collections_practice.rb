@@ -29,6 +29,7 @@ end
 
 def merge_data(keys, data)
   keys.each do |hash|
-    hash.
+    data.each do |hash|
+      
   end
 end
