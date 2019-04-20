@@ -27,5 +27,7 @@ end
 def count_elements(arr)
   count = {}
   arr.collect {|h| count[h] += 1}
-  
+  count.collect do |k, v|
+    
+  end
 end
