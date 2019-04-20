@@ -9,7 +9,7 @@ def begins_with_r(arr)
 end
 
 def contain_a(arr)
-  arr.collect do |e|
+  res = arr.collect do |e|
     if e.start_with?("a")
       e
     end
