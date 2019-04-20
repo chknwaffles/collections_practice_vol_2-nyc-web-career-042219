@@ -26,3 +26,7 @@ def count_elements(arr)
   end
   count.keys
 end
+
+def merge_data(keys, data)
+  
+end
