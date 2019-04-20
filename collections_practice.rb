@@ -13,3 +13,7 @@ def contain_a(arr)
   arr.each {|e| res << e if e.include?("a") }
   res
 end
+
+def first_wa(arr)
+  arr.each {|e| return e if e.start_with?("wa") }
+end
