@@ -11,7 +11,7 @@ end
 def contain_a(arr)
   arr.collect do |e|
     if e.start_with?("a")
-      
+      e
     end
   end
 end
