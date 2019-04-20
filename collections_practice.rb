@@ -7,6 +7,7 @@ def begins_with_r(arr)
 end
 
 def contain_a(arr)
+  arr.select {|e| e.
   res = []
   arr.each {|e| res << e if e.include?("a") }
   res
