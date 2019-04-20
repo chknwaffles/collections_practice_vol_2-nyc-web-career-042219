@@ -22,5 +22,5 @@ def first_wa(arr)
 end
 
 def remove_non_strings(arr)
-  arr.delete_if {|e| if e.class != String }
+  arr.delete_if {|e| e.class != String }
 end
