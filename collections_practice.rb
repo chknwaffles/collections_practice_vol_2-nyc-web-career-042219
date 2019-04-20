@@ -25,16 +25,6 @@ def remove_non_strings(arr)
 end
 
 def count_elements(arr)
-  res = []
-  count = 0
-  arr.each do |hash|
-    if !res.include?(hash)
-      res << hash
-    else
-      
-    end
-    #hash.each do |k, v|
-      #binding.pry
-    #end
-  end
+  count = {}
+  arr.collect {|h| count[h] += 1
 end
