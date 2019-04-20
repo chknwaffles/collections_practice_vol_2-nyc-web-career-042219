@@ -27,4 +27,5 @@ end
 def count_elements(arr)
   count = {}
   arr.collect {|h| count[h] += 1}
+  
 end
