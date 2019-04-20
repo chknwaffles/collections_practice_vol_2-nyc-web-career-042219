@@ -46,7 +46,7 @@ def organize_schools(schools)
       if location[v] == nil
         location[v] = school
       else
-        location[v]
+        location[v] << 
       end
     end
   end
