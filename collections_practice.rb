@@ -24,10 +24,7 @@ def count_elements(arr)
   count = Hash.new(0)
   arr.collect {|h| count[h] += 1}
   count.collect do |k, v|
-    binding.pry
     k[:count] = v
-    binding.pry
   end
-  binding.pry
   count.keys
 end
