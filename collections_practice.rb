@@ -13,6 +13,10 @@ end
 
 def first_wa(arr)
   arr.each do |e|
-    if e.is_s
+    if e.is_a? String == true
+      if e.start_with? "wa"
+        return e
+      end
+    end
   end
 end
