@@ -20,3 +20,10 @@ def first_wa(arr)
     end
   end
 end
+
+def remove_non_strings(arr)
+  arr.map do |e|
+    if e.class != String
+      e.delete
+    end
+end
