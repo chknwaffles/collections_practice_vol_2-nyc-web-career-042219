@@ -42,6 +42,8 @@ end
 def organize_schools(schools)
   location = {}
   schools.each do |school, hash|
-    hash.each do |
+    hash.each do |k, v|
+      
+    end
   end
 end
