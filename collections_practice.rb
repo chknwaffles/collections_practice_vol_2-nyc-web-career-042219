@@ -9,9 +9,5 @@ def begins_with_r(arr)
 end
 
 def contain_a(arr)
-  res = arr.collect do |e|
-    if e.start_with?("a")
-      e
-    end
-  end
+  res = arr.collect {|e| if e.start_with("a") }
 end
