@@ -13,11 +13,7 @@ def contain_a(arr)
 end
 
 def first_wa(arr)
-  arr.each do |e|
-    if e.class == String && e.start_with? "wa"
-      return e
-    end
-  end
+  arr.find
 end
 
 def remove_non_strings(arr)
