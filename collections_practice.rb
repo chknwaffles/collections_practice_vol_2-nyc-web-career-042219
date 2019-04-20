@@ -10,5 +10,5 @@ end
 
 def contain_a(arr)
   res = []
-  res = arr.collect {|e| res << e if e.start_with?("a") }
+  arr.collect {|e| res << e if e.start_with?("a") }
 end
