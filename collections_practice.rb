@@ -39,6 +39,6 @@ def find_cool(hash)
   hash.select {|e| e if e.has_value?("cool") }
 end
 
-def organize_schools(hash)
+def organize_schools(schools)
   
 end
