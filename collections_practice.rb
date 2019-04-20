@@ -10,7 +10,7 @@ end
 
 def contain_a(arr)
   arr.collect do |e|
-    if e.start_with("a")
+    if e.start_with?("a")
       
     end
   end
