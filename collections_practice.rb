@@ -25,6 +25,7 @@ def count_elements(arr)
   arr.collect {|h| count[h] += 1}
   binding.pry
   count.collect do |k, v|
+    binding.pry
     k[:count] = v
     binding.pry
   end
