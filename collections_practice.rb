@@ -28,5 +28,6 @@ def count_elements(arr)
     k[:count] = v
     binding.pry
   end
+  binding.pry
   count.keys
 end
