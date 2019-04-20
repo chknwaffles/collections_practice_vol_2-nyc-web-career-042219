@@ -43,7 +43,7 @@ def organize_schools(schools)
   location = {}
   schools.each do |school, hash|
     hash.each do |k, v|
-      binding.pry
+      if location[k]
     end
   end
 end
